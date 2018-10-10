@@ -1,0 +1,66 @@
+body {
+    background: transparent url("./images/bg.jpg") no-repeat;
+}
+.header {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 6em;
+    background-color: rgb(0, 0, 0);
+    margin-top: 2em;
+    border: 0.01em solid rgb(156, 156, 156);
+    padding-left: 3em;
+}
+
+.header .header-h1 {
+    font-size: 4em;
+    color: rgb(156, 156, 156);
+    padding: 0px;
+    margin: 0px;
+}
+
+.header .header-h2 {
+    padding: 1em;
+    font-size: 1em;
+    color: rgb(156, 156, 156);
+}
+
+.login {
+    padding: 5em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.login-box {
+    width: 300px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
