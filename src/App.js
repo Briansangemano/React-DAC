@@ -9,7 +9,7 @@ class App extends Component {
       <div id="App">
         <header className="App-header">
           <div id="leftcol">
-            	<h1 id="logo"><a href="?"><span1>DAC</span1> <span2>System</span2></a></h1>
+            	<h1 id="logo"><a href="?"><span1>DAC</span1><span2>System</span2></a></h1>
                 <div id="mainnav">
                 	<ul>
                     	<li><a href="?"><span> <span3>=></span3> Home</span></a></li>
@@ -17,7 +17,6 @@ class App extends Component {
                         <li><a href="?"><span> <span3>=></span3> Students</span></a></li>
                         <li><a href="?"><span> <span3>=></span3> Subjects</span></a></li>
                         <li><a href="?"><span> <span3>=></span3> Classrooms</span></a></li>
-                        <li><a href="?"><span> <span3>=></span3> Contacts</span></a></li>
                     </ul>
                 </div>
             </div>
