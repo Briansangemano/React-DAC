@@ -6,8 +6,7 @@ class Login extends Component {
         return (
             <div class="app">
                 <div class="header">
-                    <h1 class="header-h1">D.A.C</h1>
-                    <h2 class="header-h2">Digital Attendance Control</h2>
+                  <h1><span>DAC </span>System</h1>
                 </div>
                 <div class="login">
                     <div class="login-box">
